@@ -1,3 +1,33 @@
 [submodule "C/TodoC"]
 	path = C/TodoC
 	url = https://github.com/Kaoticz/TodoC
+[submodule "C/DynC"]
+	path = C/DynC
+	url = https://github.com/Kaoticz/DynC
+[submodule "C#/Kotz.Utilities"]
+	path = "C#/Kotz.Utilities"
+	url = https://github.com/Kaoticz/Kotz.Utilities
+[submodule "C#/NadekoHub"]
+	path = "C#/NadekoHub"
+	url = https://github.com/Kaoticz/NadekoHub
+[submodule "C#/Json2Sharp"]
+	path = "C#/Json2Sharp"
+	url = https://github.com/Kaoticz/Json2Sharp
+[submodule "C#/AkkoBot"]
+	path = "C#/AkkoBot"
+	url = https://github.com/Akko-Bot/AkkoBot
+[submodule "C#/Miaumarro-API"]
+	path = "C#/Miaumarro-API"
+	url = https://github.com/Miaumarro/Miaumarro-API
+[submodule "AoC/Advent-Of-Code"]
+	path = AoC/Advent-Of-Code
+	url = https://github.com/Kaoticz/Advent-Of-Code
+[submodule "Javascript/Embed-Visualizer"]
+	path = Javascript/Embed-Visualizer
+	url = https://github.com/Akko-Bot/Embed-Visualizer
+[submodule "Javascript/Miaumarro-Client"]
+	path = Javascript/Miaumarro-Client
+	url = https://github.com/Miaumarro/Miaumarro-Client
+[submodule "Nix/NixConf"]
+	path = Nix/NixConf
+	url = https://github.com/Kaoticz/NixConf
