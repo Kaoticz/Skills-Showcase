@@ -93,22 +93,22 @@ A brief summary for each of these projects can be found below.
     - **LangChain** is used to interact with the LLM.
     - **Ollama** is used to host a locally deployed LLM on the user's machine.
 
-[Advent-Of-Code]: ./AoC/Advent-Of-Code
-[AkkoBot]: ./C#/AkkoBot
-[Json2Sharp]: ./C#/Json2Sharp
-[Kotz.Utilities]: ./C#/Kotz.Utilities
-[Kotz.Collections]: ./C#/Kotz.Utilities/Kotz.Collections
-[Kotz.Extensions]: ./C#/Kotz.Utilities/Kotz.Extensions
-[Kotz.ObjectPool]: ./C#/Kotz.Utilities/Kotz.ObjectPool
-[Kotz.Events]: ./C#/Kotz.Utilities/Kotz.Events
-[Kotz.DependencyInjection]: ./C#/Kotz.Utilities/Kotz.DependencyInjection
-[Miaumarro-API]: ./C#/Miaumarro-API
-[NadekoHub]: ./C#/NadekoHub
-[TodoC]: ./C/TodoC
-[DynC]: ./C/DynC
-[Embed-Visualizer]: ./Javascript/Embed-Visualizer
-[Miaumarro-Client]: ./Javascript/Miaumarro-Client
-[NixConf]: ./Nix/NixConf
+[Advent-Of-Code]: https://github.com/Kaoticz/Advent-Of-Code
+[AkkoBot]: https://github.com/Akko-Bot/AkkoBot
+[Json2Sharp]: https://github.com/Kaoticz/Json2Sharp
+[Kotz.Utilities]: https://github.com/Kaoticz/Kotz.Utilities
+[Kotz.Collections]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.Collections
+[Kotz.Extensions]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.Extensions
+[Kotz.ObjectPool]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.ObjectPool
+[Kotz.Events]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.Events
+[Kotz.DependencyInjection]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.DependencyInjection
+[Miaumarro-API]: https://github.com/Miaumarro/Miaumarro-API
+[NadekoHub]: https://github.com/Kaoticz/NadekoHub
+[TodoC]: https://github.com/Kaoticz/TodoC
+[DynC]: https://github.com/Kaoticz/DynC
+[Embed-Visualizer]: https://github.com/Akko-Bot/Embed-Visualizer
+[Miaumarro-Client]: https://github.com/Miaumarro/Miaumarro-Client
+[NixConf]: https://github.com/Kaoticz/NixConf
 [LLM DocReader]: ./Python/LLM%20DocReader
 
 [Json2Sharp-Nuget-Downloads]: https://img.shields.io/nuget/dt/Json2Sharp?color=00aa00
