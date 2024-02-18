@@ -43,6 +43,7 @@ A brief summary for each of these projects can be found below.
     - **System.Text.Json** is used by the library to process JSON data.
     - **xUnit** is used for unit testing.
     - **GitHub Actions** CI/CD pipeline to build and publish the stable releases and NuGet packages.
+    - The CLI tool is published in the **[Arch User Repository (AUR)](https://aur.archlinux.org/packages/json2sharp-bin)**.
 
 - **[Kotz.Utilities]**: A set of helper libraries for problems commonly encountered during my projects.
     - **[Kotz.Collections]** [![Kotz.Collections-NuGet Downloads][Kotz.Collections-Nuget-Downloads]][Kotz.Collections-Nuget-Url]: Defines implementations of collection types that don't exist in .NET's Base Class Library (BCL).
@@ -83,6 +84,7 @@ A brief summary for each of these projects can be found below.
     - Uses **modules** to separate code into domains.
         - Demonstrates how to create **customizable modules** within the constraints of the Nix language.
     - Uses **Home Manager** to manage user-related programs and settings.
+    - Uses the **Nix User Repository (NUR)** to install browser extensions.
     - Contains **Bash** scripts to **automate the build and deployment** of new **derivations**.
 
 ### Python
