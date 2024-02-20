@@ -23,20 +23,22 @@ A brief summary for each of these projects can be found below.
 
 ### C#
 
-- **[AkkoBot]**: Discord bot designed for **community moderation** that prioritizes **customizability** and features a **plug-in system** for those who wish to extend the functionality of the bot. Currently serving over **480 users**, it emerged from frustrations with existing moderation bots lacking in functionality or flexibility.
+- **[AkkoBot]**: Discord bot designed for **community moderation** that prioritizes **customizability** and features a **plug-in system** for those who wish to extend the functionality of the bot. Currently serving over **480 users**, it emerged from frustrations with existing moderation bots that lacked in functionality or flexibility.
     - **DSharpPlus** is used as a Discord wrapper.
     - **EF Core** and **LinqToDb** are used to store and retrieve user data from a **PostgreSQL** database.
     - **YamlDotNet** is used for configuration files.
     - The plug-in system uses **assembly scanning** to load extra functionality into the bot.
     - The bot makes heavy use of **events** and **asynchronous programming** for most of its functionality.
     - **xUnit** is used for unit testing.
-    - Custom **logging** and **scheduling** solutions are used for internal functionalities. These will be replaced with industry-standard solutions in a future update.
+    - Custom **logging** and **scheduling** solutions are used for core functionalities. These should be replaced with industry-standard solutions in a future update.
+    - Has around **42.000 lines of code** and is currently hosted on **Google Cloud Platform** serving over **480 users**.
 
 - **[NadekoHub]**: A cross-platform desktop application designed to manage instances of the [NadekoBot](https://nadeko.bot/) Discord bot. Users can add, update, remove, execute, and stop as many instances of NadekoBot as they want. The application also saves logs and performs backups of the bots, minimizes to the system tray when it's not needed, and automatically updates itself to the latest version whenever a new version is available.
-    - **Avalonia** is used as the UI framework and the application follows the **MVVM Pattern**.
+    - Implemented in a **MVVM** pattern with **Avalonia** and **ReactiveUI**.
     - The application makes heavy use of **events** to signal and send data to different views and view-models.
-    - The application **starts other processes** and **redirects their output** for **logging** purposes.
-    - **GitHub Actions** CI/CD pipeline to build and publish the stable releases.
+    - The application **starts external processes** and **redirects their output** for **logging** purposes.
+    - Features light and dark themes for accessibility.
+    - **GitHub Actions** CI/CD pipeline to build and publish stable releases.
 
 - **[Json2Sharp]** [![Json2Sharp-NuGet Downloads][Json2Sharp-Nuget-Downloads]][Json2Sharp-Nuget-Url]: A command-line interface (CLI) tool and library designed to facilitate the conversion of JSON data into programming language classes. It originated from a personal necessity for a CLI tool capable of mapping JSON properties to classes across various programming languages. I also wanted finer control over the class generated, a feature that most tools currently available in this category lack. It currently supports C# and Python, with support for additional languages planned for the future.
     - **System.CommandLine** is used in the CLI tool.
@@ -54,9 +56,9 @@ A brief summary for each of these projects can be found below.
     - **xUnit** is used for unit testing.
     - **GitHub Actions** CI/CD pipeline to build and publish the NuGet packages.
 
-- **[Miaumarro-API]**: Back-end component of the Miaumarro petshop platform, written with **ASP NET Core Web API**. The API allows for user registration and authentication, product search and purchase, and scheduling appointments for services. It was developed in a team of four people, where I assumed the leadership role for the project from inception to fruition while also mentoring the other team members so they could keep up with the project's pace and objectives.
+- **[Miaumarro-API]**: Back-end component of the Miaumarro petshop e-commerce, written with **ASP NET Core Web API**. The API allows for user registration and authentication, product search and purchase, and scheduling appointments for services. It was developed in a team of four people, where I assumed the leadership role for the project from inception to fruition while also mentoring the other team members so they could keep up with the project's pace and objectives.
     - **EF Core** and **LinqToDb** are used to store and retrieve user data from a **SQLite** database.
-    - **Authentication** is a prerequisite for most endpoints, accomplished through **JWT Tokens**, with additional **Authorization** required for endpoints with restricted access levels.
+    -  Implementation of **authentication** and **authorization** flows in the API with **JWT Tokens**.
     - **OneOf** is used to return strongly-typed responses from the endpoints, mitigating potential bugs during development.
     - **xUnit** is used for unit testing.
 
@@ -76,7 +78,7 @@ A brief summary for each of these projects can be found below.
     - **CodeMirror** is used to render Yaml with text highlighting.
     - Hosted at: https://akko-bot.github.io/Embed-Visualizer/
 
-- **[Miaumarro-Client]**: Front-end component of the Miaumarro petshop platform, written with **VueJs**. The client allows for user registration and authentication, product browsing and purchase, scheduling appointments for services, and bridges any other feature offered by the `Miaumarro-API` in an easy and convenient way.
+- **[Miaumarro-Client]**: Front-end component of the Miaumarro petshop e-commerce, written with **VueJs**. The client allows for user registration and authentication, product browsing and purchase, scheduling appointments for services, and bridges any other feature offered by the `Miaumarro-API` in an easy and convenient way.
 
 ### Nix
 
@@ -97,11 +99,11 @@ A brief summary for each of these projects can be found below.
 [AkkoBot]: https://github.com/Akko-Bot/AkkoBot
 [Json2Sharp]: https://github.com/Kaoticz/Json2Sharp
 [Kotz.Utilities]: https://github.com/Kaoticz/Kotz.Utilities
-[Kotz.Collections]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.Collections
-[Kotz.Extensions]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.Extensions
-[Kotz.ObjectPool]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.ObjectPool
-[Kotz.Events]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.Events
-[Kotz.DependencyInjection]: https://github.com/Kaoticz/Kotz.Utilities/Kotz.DependencyInjection
+[Kotz.Collections]: https://github.com/Kaoticz/Kotz.Utilities/tree/main/Kotz.Collections
+[Kotz.Extensions]: https://github.com/Kaoticz/Kotz.Utilities/tree/main/Kotz.Extensions
+[Kotz.ObjectPool]: https://github.com/Kaoticz/Kotz.Utilities/tree/main/Kotz.ObjectPool
+[Kotz.Events]: https://github.com/Kaoticz/Kotz.Utilities/tree/main/Kotz.Events
+[Kotz.DependencyInjection]: https://github.com/Kaoticz/Kotz.Utilities/tree/main/Kotz.DependencyInjection
 [Miaumarro-API]: https://github.com/Miaumarro/Miaumarro-API
 [NadekoHub]: https://github.com/Kaoticz/NadekoHub
 [TodoC]: https://github.com/Kaoticz/TodoC
