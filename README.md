@@ -12,7 +12,7 @@ A brief summary for each of these projects can be found below.
     - **[AkkoBot](#AkkoBot)**
     - **[NadekoHub](#NadekoHub)**
     - **[Json2Sharp](#Json2Sharp)**
-    - **[Kotz.Utilities](#Kotz.Utilities)**
+    - **[Kotz.Utilities](#kotzutilities)**
     - **[Miaumarro-API](#Miaumarro-API)**
 - **C**
     - **[TodoC](#TodoC)**
