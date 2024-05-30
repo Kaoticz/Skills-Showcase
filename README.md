@@ -24,6 +24,7 @@ A brief summary for each of these projects can be found below.
     - **[NixConf](#NixConf)**
 - **Python**
     - **[LLM DocReader](#llm-docreader)**
+    - **[Breach Scraper](#breach-scraper)**
 
 ## Summaries
 
