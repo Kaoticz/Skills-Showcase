@@ -37,7 +37,7 @@ def main():
         start_time = datetime.now()
         response: str = doc_chain.invoke(
             {
-                'input': user_input,
+                'input': 'According to the provided context, ' + user_input,
                 'context': docs
             }
         )

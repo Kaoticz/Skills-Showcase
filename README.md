@@ -102,7 +102,7 @@ A library offering implementations of various **data structures**. Being my firs
 
 A **single-page web application** designed to generate **Discord embeds in Yaml format** for utilization with AkkoBot. Users are provided with a Discord message template, allowing them to populate fields with their desired content. The template is transformed into Yaml text in real-time, which can be copied and utilized with AkkoBot to produce well formatted messages on Discord.
 - **ReactJS** is used as the UI framework.
-- **YamlJS** is used to generate the Yaml text.
+- **js-yaml** is used to generate the Yaml text.
 - **CodeMirror** is used to render Yaml with text highlighting.
 - Hosted at: https://akko-bot.github.io/Embed-Visualizer/
 
@@ -128,6 +128,16 @@ Nix configuration files for a NixOS system. This was my first exploration of the
 Small console application that feeds **PDF** documents into a **Large Language Model (LLM)** AI, then lets the user ask the AI **questions about said documents**.
 - **LangChain** is used to interact with the LLM.
 - **Ollama** is used to host a locally deployed LLM on the user's machine.
+
+#### Breach Scraper
+
+Console application that scrapes user-generated content from the hacking forum known as "BreachForums", including messages, threads, subthreads, and their associated metadata.
+
+- Uses BeautifulSoup to scrape the webpages and Peewee to store the collected data into a SQLite database.
+- It is capable of skipping threads it has previously scraped, speeding up the update process of the whole dataset.
+- It falls back to a Tor connection in order to avoid CloudFlare's hosting protections, or can use it right away if the user chooses to.
+- Contains Bash scripts to pack the application as a library, so it can be integrated into other projects.
+
 
 [Advent-Of-Code]: https://github.com/Kaoticz/Advent-Of-Code
 [AkkoBot]: https://github.com/Akko-Bot/AkkoBot
