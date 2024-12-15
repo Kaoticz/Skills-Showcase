@@ -17,6 +17,8 @@ A brief summary for each of these projects can be found below.
 - **C**
     - **[TodoC](#TodoC)**
     - **[DynC](#DynC)**
+- **Java**
+    - **[Nekollector](#Nekollector)**
 - **Javascript**
     - **[Embed-Visualizer](#Embed-Visualizer)**
     - **[Miaumarro-Client](#Miaumarro-Client)**
@@ -97,6 +99,15 @@ A simple console application that saves anotations, created for an university as
 
 A library offering implementations of various **data structures**. Being my first project, it was conceived to refine my proficiency in the C programming language. It includes generic implementations of an **object** type, a **list**, and a **linked list**.
 
+### Java
+
+#### [Nekollector]
+
+A desktop application designed to display and download images of catgirls from 3 different APIs. It allows the user to browse through random catgirl images and save them locally to their computer.
+- **JavaFX** is used as the UI framework.
+- **Jackson** is used to generate the application's settings file in JSON.
+- **Maven** is used to build and deploy the application.
+
 ### Javascript
 
 #### [Embed-Visualizer]
@@ -151,6 +162,7 @@ Console application that scrapes user-generated content from the hacking forum k
 [Kotz.DependencyInjection]: https://github.com/Kaoticz/Kotz.Utilities/tree/main/Kotz.DependencyInjection
 [Miaumarro-API]: https://github.com/Miaumarro/Miaumarro-API
 [NadekoHub]: https://github.com/Kaoticz/NadekoHub
+[Nekollector]: https://github.com/Kaoticz/Nekollector
 [TodoC]: https://github.com/Kaoticz/TodoC
 [DynC]: https://github.com/Kaoticz/DynC
 [Embed-Visualizer]: https://github.com/Akko-Bot/Embed-Visualizer
