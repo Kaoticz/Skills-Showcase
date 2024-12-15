@@ -12,7 +12,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 def main():
-    model_name: str = 'dolphin-mixtral'
+    model_name: str = 'llama3.1'
     llm: ChatOllama = ChatOllama(model=model_name, temperature=0.4)
     system_prompt: ChatPromptTemplate = ChatPromptTemplate.from_template(
         """

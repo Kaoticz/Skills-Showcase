@@ -31,3 +31,6 @@
 [submodule "Nix/NixConf"]
 	path = Nix/NixConf
 	url = https://github.com/Kaoticz/NixConf
+[submodule "Java/Nekollector"]
+	path = Java/Nekollector
+	url = https://github.com/Kaoticz/Nekollector
